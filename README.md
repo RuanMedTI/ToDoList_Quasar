@@ -95,6 +95,20 @@ ToDoList_Quasar/
 
 ---
 
+## Modelo Entidade-Relacionamento (MER)
+
+O projeto utiliza um banco de dados simples com as seguintes entidades principais:
+
+- **Tasks (Tarefas):**
+  - `id` (integer, chave primária)
+  - `title` (string, título da tarefa)
+  - `description` (text, descrição da tarefa)
+  - `status` (boolean, indica se a tarefa está concluída ou não)
+  - `created_at` (timestamp, data de criação)
+  - `updated_at` (timestamp, data de última atualização)
+
+---
+
 ## Funcionalidades
 
 - Criar novas tarefas
@@ -106,7 +120,7 @@ ToDoList_Quasar/
 
 ## Demonstração em Vídeo
 
-Confira o vídeo da aplicação no YouTube:
+Confira o vídeo com testes da aplicação no YouTube:
 [https://www.youtube.com/watch?v=8_8mMoWeX_k](https://www.youtube.com/watch?v=8_8mMoWeX_k)
 
 ---
